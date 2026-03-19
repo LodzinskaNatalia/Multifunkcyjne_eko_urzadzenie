@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            
+            font-size: x-large;
+            
+        }
+        body{
+            background-color: beige;
+            
+            
+            
+        }
+        header{
+            margin-bottom: 1%;
+            background-image: url(Liscie.jpg);
+            
+            
+        }
+        a{
+            
+            display: inline;
+            background-color: bisque;
+            padding-left: 1%;
+            padding-right: 1%;
+            padding-top: 0.5%;
+            padding-bottom: 0.5%;
+            border-radius: 5px;
+            margin: 1%;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            
+            
+            
+            
+        }
+        a:hover{
+            background-color: burlywood;
+            
+        }
+        h1{
+            margin: 2%;
+            font-size: xx-large;            
+            text-align: center;
+            padding: 2%;
+            border-radius: 5px;
+            font-weight: bolder
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+        }
+        main{
+            margin: 2%;
+            padding: 1%;
+        }
+        footer{
+            margin: 2%;
+        }
+        
+        div{
+            text-align: center;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>マルチ機能エコデバイス</h1>
+        <nav>
+            <a href="index.html">Polski</a>
+            <a href="angielski.html">English</a>
+            <a href="hiszpański.html">Español</a>
+            <a href="niemiecki.html">Deutsch</a>
+            <a href="rosyjski.html">Русский</a>
+            
+        </nav>
+    </header>
+    <main>
+        <h3>説明:</h3>
+        <p>私たちは, 二つの役に立つ環境に優しい装置のプロトタイプを作り、これを「マルチ機能エコデバイス」と名付けました。これは Arduino の技術に基づいていて、サーモスタットのような役割をします。
+
+その一は、太陽光パネルのエネルギーだけを使うので、より良いサーモスタットになります。
+
+その二は、登山やアウトドアの旅などで役立つ、旅行用のライフセーバーのような装置です。小型で、温度が低すぎる時にはヒーティングプレートを作動させ、温度が高すぎる時には冷却システムを作動させるようになっています。
+
+私たちのプロトタイプは、加熱にはPTCヒーティングプレートを、冷却にはファンを使います。温度は様々な用途に合わせて調整できますが、私たちの装置では、２５℃以上冷却が、２３℃以下で加熱が作動します。
+
+        </p>
+        <div>
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/hzgFY-X1EOc"
+            allowfullscreen>
+        </iframe>
+        </div>
+
+        <ol><h3>私たちは、何がうまくいったか、そして何を改善できるかについて分析を行いました。というのも、これは利用できる資源の関係で、まだプロトタイプだけだからです。</h3>
+
+            <li>結果として、私たちが持っているモバイルバッテリーだけでは十分な電力を供給できず、そのため装置はゆっくりと動作してしまいました（動画では早送りされています）。そのため、9Vバッテリーを追加せざるを得ませんでした。その上、冷却時にはファンが多くの電力を必要とするから、画面に温度が表示されなくなります。もしこのプロトタイプを市場に出すなら、こんな小さなモバイルバッテリーより多くの電力を供給できる太陽光パネルを使わないといけません。</li>
+            <li>ファン（3.5V）とヒーティングプレートでは、温度に大きな影響を与えるほどの出力がありません。もっと強力な機器が必要ですが、私たちはそれを持っていません。</li>
+            <li>機器は持ち運ぶにはあまりにも壊れやすいことが分かったので、このウェブサイトには動画が掲載されています。その上、プログラマーは装置でテストできなかったため、正しくコードを書くのに問題がありました。しかし、技師はこれを直すことができました。装置をより頑丈にするには、はんだ付けする必要です。また、旅行用のライフセーバーとして使うなら、しっかりしたケースを追加することも必要です。</li>
+        </ol>
+<p>まとめると、これはまだプロトタイプだけですが、より大きな規模で使うにはどこを改善すればいいかは分かっています。</p>
+    </main>
+    <footer>
+       その装置はナタリア・ウォジンスカ、ヴェロニカ・ティタエワ、アドリアン・ヴウォダルスキによって作られました。
+    </footer>
+    
+</body>
+</html>

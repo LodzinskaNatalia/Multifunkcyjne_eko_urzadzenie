@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            
+            font-size: x-large;
+            
+        }
+        body{
+            background-color: beige;
+            
+            
+            
+        }
+        header{
+            margin-bottom: 1%;
+            background-image: url(Liscie.jpg);
+            
+            
+        }
+        a{
+            
+            display: inline;
+            background-color: bisque;
+            padding-left: 1%;
+            padding-right: 1%;
+            padding-top: 0.5%;
+            padding-bottom: 0.5%;
+            border-radius: 5px;
+            margin: 1%;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            
+            
+            
+            
+        }
+        a:hover{
+            background-color: burlywood;
+            
+        }
+        h1{
+            margin: 2%;
+            font-size: xx-large;            
+            text-align: center;
+            padding: 2%;
+            border-radius: 5px;
+            font-weight: bolder
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+        }
+        main{
+            margin: 2%;
+            padding: 1%;
+        }
+        footer{
+            margin: 2%;
+        }
+        
+        div{
+            text-align: center;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Multifunkcyjne eko  urządzenie</h1>
+        <nav>
+            <a href="angielski.html">English</a>
+            <a href="hiszpański.html">Español</a>
+            <a href="niemiecki.html">Deutsch</a>
+            <a href="rosyjski.html">Русский</a>
+            <a href="japonski.html">日本語</a>
+        </nav>
+    </header>
+    <main>
+        <h3>Opis:</h3>
+        <p>Zbudowaliśmy prototyp do dwóch pomocnych i ekologicznych urządzeń i nazwaliśmy go Multifunkcyjnym Eko Urządzeniem. Jest ono oparte na technologii Adruino i pełni rolę podobną do termostatu. Pierwsze urządzenie ma być lepszym termostatem, gdyż pobiera energię tylko z paneli fotowoltaicznych. Drugie zaś ma być turystycznym lifesaverem, który może być pomocny np. podczas wyprawy w góry. Powinien być niewielkich rozmiarów i włączać płytę grzewczą, gdy temperatura jest zbyt niska i system chłodzenia, gdy jest zbyt wysoka. Nasz prototyp używa płyty PTC do ogrzewania i wiatraczek do chłodzenia. Temperatura może być dostosowana do różnych potrzeb, ale w naszym przypadku chłodzenie aktywuje się przy temp. >= 25°C, a grzanie - przy temp. <= 23°C.
+        </p>
+        <div>
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/hzgFY-X1EOc"
+            allowfullscreen>
+        </iframe>
+        </div>
+
+        <ol><h3>Przygotowaliśmy analizę co wyszło, a co można by było poprawić, ponieważ jest to na razie tylko prototyp, ze względu na dostępne zasoby.</h3>
+
+            <li>Okazało się, że sam powerbank, który posiadamy, nie starcza żeby dać odpowiednią ilość energii, przez co urządzenie powoli działało (na filmiku jest przyśpieszona wersja). Byliśmy zmuszeni dodać baterię 9V. Dodatkowo podczas chłodzenia wiatraczek wymaga za dużo energii, więc na ekranie nie wyświetla się temperatura. - Gdyby ten prototyp miał wyjść na rynek, trzeba by było zastosować panel słoneczny, który dostarczyłby znacznie więcej mocy niż powerbank.</li>
+            <li>Wiatraczek (3,5 woltów) i płyta grzewcza mają za słabą moc, żeby znacząco wpływać na temperaturę. - Potrzebne by były mocniejsze sprzęty, do których nie mamy dostępu.</li>
+            <li>Sprzęt okazał się zbyt delikatny, żeby go przenosić, więc z tego powodu na stronie zamieszczony jest filmik. Były przez to też  problemy z napisaniem poprawnie działającego kodu przez programistę, który nie mógł testować go na urządzeniu, jednak inżynierowi udało się to naprawić - Żeby urządzebie było trwalsze, trzeba by byłoby je zlutować, a żeby nadawało się jako turystuczny lifesaver,  dodać jakąś solidną obudowę.</li>
+        </ol>
+<p>Podsumowując, jest to tylko prototyp, jednak wiemy co należałoby poprawić, żeby działało na większą skalę.</p>
+    </main>
+    <footer>
+        Urządzenie i strona zostały stworzone przez Natalię Lodzińską, Veronikę Titaevę i Adriana Włodarskiego.
+    </footer>
+    
+</body>
+</html>

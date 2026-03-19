@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            
+            font-size: x-large;
+            
+        }
+        body{
+            background-color: beige;
+            
+            
+            
+        }
+        header{
+            margin-bottom: 1%;
+            background-image: url(Liscie.jpg);
+            
+        }
+        a{
+            
+            display: inline;
+            background-color: bisque;
+            padding-left: 1%;
+            padding-right: 1%;
+            padding-top: 0.5%;
+            padding-bottom: 0.5%;
+            border-radius: 5px;
+            margin: 1%;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            
+            
+            
+        }
+        a:hover{
+            background-color: burlywood;
+            
+        }
+        h1{
+            margin: 2%;
+            font-size: xx-large;            
+            text-align: center;
+            padding: 2%;
+            border-radius: 5px;
+            font-weight: bolder
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+        }
+        main{
+            margin: 2%;
+            padding: 1%;
+        }
+        footer{
+            margin: 2%;
+        }
+        
+        div{
+            text-align: center;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Multifunctional Eco Device</h1>
+        <nav>
+            <a href="index.html">Polski</a>
+            <a href="hiszpański.html">Español</a>
+            <a href="niemiecki.html">Deutsch</a>
+            <a href="rosyjski.html">Русский</a>
+            <a href="japonski.html">日本語</a>
+        </nav>
+    </header>
+    <main>
+        <h3>Description</h3>
+        <p>We built a prototype for two helpful and eco-friendly devices and we called it "Multifunctional Eco Device". It is based on technology called Arduino and acts as a thermostat. The former device was designed to be a better thermostat, as it draws energy only from photovoltaic panels. The latter was meant to be a touristic lifesaver, which may be helpful, for example, during a mountain hike. It should be compact, turn on the heater when the temperature is too low and turn on the cooling system when it's too high. Our prototype uses a PTC plate for heating and a fan for cooling. The temperature can be adjusted to various needs, but in our case the cooling activates at temp. >= 25°C and the heating at <= 23°C.
+        </p>
+        <div>
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/hzgFY-X1EOc"
+            allowfullscreen>
+        </iframe>
+        </div>
+
+        <ol><h3>We have prepared an analysis of what gone well and what we could improve, because it's (for now) only a prototype due to available resources.</h3>
+
+            <li>It turned out that the only powerbank we have wasn't enough to give the necessary amount of energy in order for the device to work, so the device worked quite slowly (the video shows us sped-up version). We were forced to add 9V battery. Also, while cooling, the fan was consuming too much energy, so the screen doesn't display the temperature. If this prototype were to enter the market, it would be necessary to use a solar panel that would give significantly more energy than a powerbank.</li>
+            <li>The fan (3.5 Volt) and the heater are too weak to significantly influence the temperature. We would need to bring stronger components, which we have no access to.</li>
+            <li>The device turned out to be too fragile to move it, so for that reason we placed the video on the website. Also because of that our programmer had problems with writing correct code, so she couldn't test it on our device, but the engineer successfully fixed it - to make the device more durable, it would need to be soldered, and to make it suitable for a touristic lifesaver, a sturdy casing would be added.</li>
+        </ol>
+<p>To sum up: it is only a prototype, but we know what should be fixed to make it work on a larger scale.</p>
+    </main>
+    <footer>
+        The device and the website were created by Natalia Lodzińska, Veronika Titaeva and Adrian Włodarski.
+    </footer>
+    
+</body>
+</html>
